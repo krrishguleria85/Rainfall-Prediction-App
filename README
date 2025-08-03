@@ -1,0 +1,48 @@
+Rainfall Prediction Web Application 🌦️ ->
+An end-to-end machine learning project that predicts whether it will rain the next day. This application uses a Logistic Regression model trained on historical weather data and features a user-friendly web interface built with Streamlit that fetches live weather data using the OpenWeatherMap API.
+
+🎥 Live Demo
+![App Demo](https://github.com/your-username/your-repo-name/blob/main/your-demo.gif?raw=true)
+
+
+✨ Features
+Accurate Predictions: Utilizes a Logistic Regression model with 89.09% accuracy.
+
+Live Weather Data: Integrates with the OpenWeatherMap API to fetch real-time weather data for any city.
+
+User-Friendly Interface: A clean, accessible, and interactive web app built with Streamlit.
+
+End-to-End Workflow: Covers the complete machine learning lifecycle from data cleaning and EDA to model deployment.
+
+Secure API Key Handling: Uses Streamlit secrets management to keep the API key safe and secure.
+
+
+🛠️ Technologies Used
+Programming Language: Python 3.10.11
+
+Data Manipulation: Pandas, NumPy
+
+Data Visualization: Matplotlib, Seaborn
+
+Machine Learning: Scikit-learn, Logistic Regression Model
+
+Web Framework: Streamlit
+
+API Integration: Requests
+
+Model Persistence: Joblib
+
+
+
+⚙️ Machine Learning Workflow
+Data Cleaning: Handled missing values in the dataset by filling them with the mean or mode.
+
+Exploratory Data Analysis (EDA): Visualized feature distributions and relationships to gain insights.
+
+Feature Engineering: Converted categorical features (like WindGustDir and RainTomorrow) into a numerical format using one-hot encoding and mapping.
+
+Model Training: Trained a Logistic Regression model on 80% of the data.
+
+Model Evaluation: Achieved 89.09% accuracy on the 20% test set, validating the model performance.
+
+Model Saving: The trained model was saved into a .joblib file for use in the web application.
