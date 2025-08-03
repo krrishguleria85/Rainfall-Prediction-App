@@ -112,7 +112,7 @@ print(f"\nModel Accuracy: {accuracy * 100:.2f}%")
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
-# --- 6. SAVING THE MODEL (Corrected Version) ---
+# --- 6. SAVING THE MODEL ---
 import joblib
 
 features = X.columns.tolist()
