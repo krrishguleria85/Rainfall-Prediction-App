@@ -6,7 +6,7 @@ An end-to-end machine learning project that predicts whether it will rain the ne
 
 
 ✨ Features
-Accurate Predictions: Utilizes a Logistic Regression model with 89.09% accuracy.
+Accurate Predictions: Utilizes a Logistic Regression model with 89.19% accuracy.
 
 Live Weather Data: Integrates with the OpenWeatherMap API to fetch real-time weather data for any city.
 
@@ -43,6 +43,6 @@ Feature Engineering: Converted categorical features (like WindGustDir and RainTo
 
 Model Training: Trained a Logistic Regression model on 80% of the data.
 
-Model Evaluation: Achieved 89.09% accuracy on the 20% test set, validating the model performance.
+Model Evaluation: Achieved 89.19% accuracy on the 20% test set, validating the model performance.
 
 Model Saving: The trained model was saved into a .joblib file for use in the web application.
