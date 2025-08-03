@@ -2,7 +2,7 @@ Rainfall Prediction Web Application 🌦️ ->
 An end-to-end machine learning project that predicts whether it will rain the next day. This application uses a Logistic Regression model trained on historical weather data and features a user-friendly web interface built with Streamlit that fetches live weather data using the OpenWeatherMap API.
 
 🎥 Live Demo
-![App Demo](https://github.com/your-username/your-repo-name/blob/main/your-demo.gif?raw=true)
+Rainfall Predictor - Google Chrome 2025-08-03 13-22-15.mp4
 
 
 ✨ Features
